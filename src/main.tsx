@@ -11,9 +11,9 @@ Amplify.configure(outputs);
 const cognitoAuthConfig = {
   authority: "https://cognito-idp.eu-west-1.amazonaws.com/eu-west-1_taNYCJ45m",
   client_id: "6d9ono59e0m91trol77u2ilvp4",
-  redirect_uri: "https://localhost",
+  redirect_uri: "https://main.d2kaamdwb72vj6.amplifyapp.com/",
   response_type: "code",
-  scope: "email openid",
+  scope: "email openid groups",
 };
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
