@@ -9,7 +9,7 @@ const cognitoAuthConfig = {
   client_id: "6d9ono59e0m91trol77u2ilvp4",
   redirect_uri: "https://main.d2kaamdwb72vj6.amplifyapp.com/",
   response_type: "code",
-  scope: "email openid groups",
+  scope: "openid",
 };
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
